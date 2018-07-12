@@ -54,6 +54,6 @@ inner join character_books
 on characters.id = character_books.character_id
 join books
 on books.id = character_books.book_id
-group by characters.name 
+group by characters.name
 order by book_count desc"
 end
